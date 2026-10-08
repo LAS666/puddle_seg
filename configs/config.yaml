@@ -1,0 +1,10 @@
+# path 下的相对路径以项目根目录 yolo_seg 为基准。
+training:
+  crossvalidation: True
+  crossvalidation_split: 5
+  pretrained: True
+
+path:
+  dataset: "configs/data.yaml"
+  model: "weights/yolo11n-seg.pt"
+  paramcfg: "configs/train_cfg.yaml"

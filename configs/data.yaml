@@ -1,0 +1,16 @@
+path: /absolute/path/to/datasets/data_795
+
+train:
+  - images/train
+  - ../aug/images
+  - ../changcheng_aug/images
+  - ../changcheng_aug2/images
+  - ../changcheng_sun/images
+  - ../changcheng_929/images
+
+val: images/val
+
+nc: 1
+
+names:
+  0: puddle
