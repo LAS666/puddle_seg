@@ -1,7 +1,6 @@
 datasets/
 data/
 runs/
-weights/
 .venv/
 venv/
 __pycache__/
